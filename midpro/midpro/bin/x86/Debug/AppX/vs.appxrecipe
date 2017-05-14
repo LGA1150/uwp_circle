@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>68E0956F2A0BACC3B2DA4B9A66326E6F508F4E7227E52F2D894168A297974B58</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>86DE1E9336F1196B7A42E5883E1F85440BCB67EF7046F75F7146997F75EC0893</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c3bcb501-ff73-42ad-b1c5-e22f16171d40_1.0.0.0_x86__cwv82vxk0xfmc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c3bcb501-ff73-42ad-b1c5-e22f16171d40_cwv82vxk0xfmc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c3bcb501-ff73-42ad-b1c5-e22f16171d40</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-12T12:11:28.627</Modified>
+      <Modified>2017-05-14T11:06:56.617</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\midpro.exe">
       <PackagePath>entrypoint\midpro.exe</PackagePath>
-      <Modified>2017-05-12T12:11:27.575</Modified>
+      <Modified>2017-05-14T11:06:56.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -472,13 +472,20 @@
       <PackagePath>Assets\loading.gif</PackagePath>
       <Modified>2017-05-11T08:34:28.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-05-06T13:52:57.395</Modified>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T11:02:50.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\tile.xml">
-      <PackagePath>tile.xml</PackagePath>
-      <Modified>2017-05-09T13:50:57.320</Modified>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-14T03:12:24.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -492,7 +499,7 @@
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T03:15:38.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
@@ -514,9 +521,17 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T09:22:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-05-06T13:52:57.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\tile.xml">
+      <PackagePath>tile.xml</PackagePath>
+      <Modified>2017-05-09T13:50:57.320</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\midpro.xr.xml">
       <PackagePath>midpro.xr.xml</PackagePath>
-      <Modified>2017-05-11T16:49:41.845</Modified>
+      <Modified>2017-05-14T10:52:23.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -525,11 +540,11 @@
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-12T12:11:28.330</Modified>
+      <Modified>2017-05-14T11:04:46.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\Core\midpro.exe">
       <PackagePath>midpro.exe</PackagePath>
-      <Modified>2017-05-12T12:11:28.622</Modified>
+      <Modified>2017-05-14T11:06:56.612</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

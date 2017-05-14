@@ -352,11 +352,17 @@
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\loading.gif">
       <PackagePath>Assets\loading.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\tile.xml">
-      <PackagePath>tile.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -384,6 +390,12 @@
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\tile.xml">
+      <PackagePath>tile.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\midpro.xr.xml">
       <PackagePath>midpro.xr.xml</PackagePath>

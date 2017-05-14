@@ -6,11 +6,8 @@ module.exports = (db) => {
   }
 
   function duplimate (json) {
-    console.log('1');
     return user.findOne({username: json.username})
                .then(res => Promise.resolve(!!res));
-    // console.log(res);
-    // return !!res;
   }
 
   async function editAvatar (json) {

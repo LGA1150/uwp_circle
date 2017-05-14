@@ -1,8 +1,8 @@
 App.xbf
-daKa.xbf
-details.xbf
-login.xbf
-MainPage.xbf
-myDaKas.xbf
-setting.xbf
-signup.xbf
+View\daKa.xbf
+View\details.xbf
+View\login.xbf
+View\MainPage.xbf
+View\myDaKas.xbf
+View\setting.xbf
+View\signup.xbf
