@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3bcb501-ff73-42ad-b1c5-e22f16171d40</PackageIdentityName>
     <PackageIdentityPublisher>CN=zhulifeng</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T11:06:56.617</Modified>
+      <Modified>2017-05-14T11:16:59.119</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\midpro.exe">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\bin\x86\Debug\midpro.exe">
       <PackagePath>entrypoint\midpro.exe</PackagePath>
-      <Modified>2017-05-14T11:06:56.267</Modified>
+      <Modified>2017-05-14T11:16:41.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhulifeng\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -468,83 +468,83 @@
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
       <Modified>2014-12-09T03:04:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\loading.gif">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\loading.gif">
       <PackagePath>Assets\loading.gif</PackagePath>
-      <Modified>2017-05-11T08:34:28.879</Modified>
+      <Modified>2017-05-14T11:15:58.865</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T11:02:50.988</Modified>
+      <Modified>2017-05-14T11:15:58.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T03:12:24.668</Modified>
+      <Modified>2017-05-14T11:15:58.850</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T03:15:38.279</Modified>
+      <Modified>2017-05-14T11:15:58.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:22:56.000</Modified>
+      <Modified>2017-05-14T11:15:58.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-05-06T13:52:57.395</Modified>
+      <Modified>2017-05-14T11:15:58.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\tile.xml">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\tile.xml">
       <PackagePath>tile.xml</PackagePath>
-      <Modified>2017-05-09T13:50:57.320</Modified>
+      <Modified>2017-05-14T11:16:05.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\midpro.xr.xml">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\bin\x86\Debug\midpro.xr.xml">
       <PackagePath>midpro.xr.xml</PackagePath>
-      <Modified>2017-05-14T10:52:23.907</Modified>
+      <Modified>2017-05-14T11:16:05.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-02-23T16:13:29.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-14T11:04:46.753</Modified>
+      <Modified>2017-05-14T11:16:42.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\bin\x86\Debug\Core\midpro.exe">
+    <AppxPackagedFile Include="C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\bin\x86\Debug\Core\midpro.exe">
       <PackagePath>midpro.exe</PackagePath>
-      <Modified>2017-05-14T11:06:56.612</Modified>
+      <Modified>2017-05-14T11:16:59.113</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

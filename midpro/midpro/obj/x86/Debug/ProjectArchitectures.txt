@@ -1,1 +1,1 @@
-C:\Users\zhulifeng\Documents\Visual Studio 2015\Projects\midpro\midpro\midpro.csproj;x86
+C:\Users\zhulifeng\Desktop\uwp_circle\midpro\midpro\midpro.csproj;x86
