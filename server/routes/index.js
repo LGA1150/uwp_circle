@@ -6,7 +6,7 @@ function f(db) {
   const records = require('../ctrl/record.js')(db);
   const user = require('../ctrl/user.js')(db);
   const comment = require('../ctrl/comment.js')(db);
-  console.log(user);
+
   function auth (req, res, next) {
     if (typeof req.cookies.username != 'undefined') {
       return next();
@@ -15,7 +15,6 @@ function f(db) {
   }
 
   router.post('/session', async (req, res, next) => {
-    console.log(req.body);
     const one = await user.findOne(req.body);
     let status,
         message;
@@ -40,7 +39,6 @@ function f(db) {
 
   router.post('/user', async (req, res, next) => {
     const exist = await user.duplimate(req.body);
-    console.log(exist);
     let result;
     if (exist) {
       result = {
@@ -48,7 +46,6 @@ function f(db) {
         message: '用户已存在'
       };
     } else {
-      console.log(exist);
       await user.add(req.body);
       result = {
         status: 200,
@@ -85,7 +82,6 @@ function f(db) {
 
   router.get('/dakas', auth, async (req, res, next) => {
     const data = await records.all();
-    console.log(data);
     res.send( JSON.stringify({data, length: data.length}) )
   });
 
@@ -101,14 +97,12 @@ function f(db) {
 
   router.post('/comments', auth, async (req, res, next) => {
     req.body.username = req.cookies.username;
-    console.log(req.body.content);
     await comment.add(req.body);
     res.send(JSON.stringify({status: 200, message: '评论成功'}));
   });
 
   router.get('/comments', async (req, res, next) => {
     req.body.id = req.query.id;
-    console.log(req.body.id);
     const data = await comment.get(req.body);
     res.send(JSON.stringify({data, length: data.length}));
   });

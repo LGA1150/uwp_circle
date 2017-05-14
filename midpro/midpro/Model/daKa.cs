@@ -9,7 +9,6 @@ namespace midpro.Model
 {
     class daKa
     {
-        // public int id { get; set; }
         public string id { get; set; }
         public string username { get; set; }
         public string nickname { get; set; }
@@ -33,7 +32,5 @@ namespace midpro.Model
             this.src = src;
             this.srcUri = uri;
         }
-
-       //  public string createJson (string nickname, ImageSource avatar, string username, string content, string createdTime, string uri)
     }
 }

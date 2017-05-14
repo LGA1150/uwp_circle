@@ -69,22 +69,9 @@ namespace midpro
                 await new MessageDialog("怕是你没有联网哦").ShowAsync();
             }
         }
-        private void button_Click(object sender, RoutedEventArgs e)
+
+        private void live_Tiles(string content, string createdTime)
         {
-            string content = textBox.Text;
-            DateTime now = DateTime.Now;
-            StringBuilder createdTime = new StringBuilder();
-            createdTime.Append(now.Year.ToString());
-            createdTime.Append("-");
-            createdTime.Append((now.Month + 1).ToString());
-            createdTime.Append("-");
-            createdTime.Append(now.Day.ToString());
-            createdTime.Append(" ");
-            createdTime.Append(now.Hour.ToString());
-            createdTime.Append(":");
-            createdTime.Append(now.Minute.ToString());
-
-
             XmlDocument tile = new XmlDocument();
             tile.LoadXml(File.ReadAllText("tile.xml"));
             XmlNodeList tileText = tile.GetElementsByTagName("text");
@@ -109,8 +96,30 @@ namespace midpro
             var updator = TileUpdateManager.CreateTileUpdaterForApplication();
             updator.Update(notification);
             TileUpdateManager.CreateTileUpdaterForApplication().EnableNotificationQueue(true);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            string content = textBox.Text;
+            if (content.Length > 140)
+            {
+                var i =  new MessageDialog("长度太长啦~").ShowAsync();
+                return;
+            }
+            DateTime now = DateTime.Now;
+            StringBuilder createdTime = new StringBuilder();
+            createdTime.Append(now.Year.ToString());
+            createdTime.Append("-");
+            createdTime.Append((now.Month + 1).ToString());
+            createdTime.Append("-");
+            createdTime.Append(now.Day.ToString());
+            createdTime.Append(" ");
+            createdTime.Append(now.Hour.ToString());
+            createdTime.Append(":");
+            createdTime.Append(now.Minute.ToString());
 
 
+            live_Tiles(content, createdTime.ToString());
 
             postFrom(content, this.imageSrc, createdTime.ToString());
         }

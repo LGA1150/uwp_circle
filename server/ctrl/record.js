@@ -21,9 +21,6 @@ module.exports = (db) => {
   }
 
   function editAvatar (json) {
-    // const res = await records.find({username: json.username}).toArray();
-    // if (res.length === 0) return;
-    console.log(json.username);
     records.find({"username": json.username}).toArray().then(res => console.log(res));
     records.update({"username": json.username}, {$set: {"avatarUri": json.avatar}}, {upsert: false, multi: true});
     return Promise.resolve();

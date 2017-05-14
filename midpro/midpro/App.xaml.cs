@@ -97,7 +97,10 @@ namespace midpro
                             string ddate = statement[3].ToString();
                             os = did;
                         }
-                        if (os.Equals("")) { rootFrame.Navigate(typeof(login), e.Arguments); }
+                        if (os.Equals(""))
+                        {
+                            rootFrame.Navigate(typeof(login), e.Arguments);
+                        }
                         else
                         {
                             rootFrame.Navigate(typeof(MainPage), e.Arguments);
@@ -108,20 +111,6 @@ namespace midpro
                 }
                 // 确保当前窗口处于活动状态
                 Window.Current.Activate();
-                Windows.UI.Core.SystemNavigationManager.GetForCurrentView().BackRequested += OnBackRequested;
-
-                rootFrame.Navigated += (s, a) =>
-                {
-                    if (rootFrame.CanGoBack)
-                    {
-                        // Setting this visible is ignored on Mobile and when in tablet mode!     
-                        Windows.UI.Core.SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.Visible;
-                    }
-                    else
-                    {
-                        Windows.UI.Core.SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.Collapsed;
-                    }
-                };
             }
         }
 

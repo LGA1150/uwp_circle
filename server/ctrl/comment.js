@@ -6,7 +6,6 @@ module.exports = (db) => {
   const resolve = Promise.resolve();
 
   function add (json) {
-    console.log(json);
     comment.insert(json);
     return resolve;
   }
